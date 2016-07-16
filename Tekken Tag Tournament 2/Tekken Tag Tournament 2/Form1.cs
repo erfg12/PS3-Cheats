@@ -30,7 +30,8 @@ namespace PS3_RTM_tool
             try
             {
                 if (PS3.ConnectTarget())
-                    MessageBox.Show("Successfully Connected to Target!", "Connected", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show("Successfully Connected to Target!", "Connected", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    statusLabel.Text = "Status: Connected/Not Attached";
                 else
                     MessageBox.Show("Failed to Connect", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -44,12 +45,15 @@ namespace PS3_RTM_tool
         {
             try
             {
-                PS3.AttachProcess();
-                MessageBox.Show("Successfully Attached to Proccess!", "Attached", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (PS3.AttachProcess())
+                    //MessageBox.Show("Successfully Attached to Proccess!", "Attached", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    statusLabel.Text = "Status: Connected/Attached";
+                else
+                    MessageBox.Show("Failed to Attach", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch
             {
-                MessageBox.Show("Failed to Attached", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Failed to Attach", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -67,8 +71,10 @@ namespace PS3_RTM_tool
         {
             if (checkBox1.Checked)
             {
-                PS3.Extension.WriteByte(0x0163D770, 0xB6); //character1
-                PS3.Extension.WriteByte(0x016428D0, 0xB6); //character2
+                PS3.Extension.WriteInt32(0x0163D770, 11927552); //character1
+                PS3.Extension.WriteInt32(0x0163D774, 11927552);
+                PS3.Extension.WriteInt32(0x016428D0, 11927552); //character2
+                PS3.Extension.WriteInt32(0x016428D4, 11927552);
             }
         }
     }

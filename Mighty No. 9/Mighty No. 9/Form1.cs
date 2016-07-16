@@ -30,7 +30,8 @@ namespace PS3_RTM_tool
             try
             {
                 if (PS3.ConnectTarget())
-                    MessageBox.Show("Successfully Connected to Target!", "Connected", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show("Successfully Connected to Target!", "Connected", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    statusLabel.Text = "Status: Connected/Not Attached";
                 else
                     MessageBox.Show("Failed to Connect", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -44,12 +45,15 @@ namespace PS3_RTM_tool
         {
             try
             {
-                PS3.AttachProcess();
-                MessageBox.Show("Successfully Attached to Proccess!", "Attached", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (PS3.AttachProcess())
+                    //MessageBox.Show("Successfully Attached to Proccess!", "Attached", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    statusLabel.Text = "Status: Connected/Attached";
+                else
+                    MessageBox.Show("Failed to Attach", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch
             {
-                MessageBox.Show("Failed to Attached", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Failed to Attach", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -66,7 +70,11 @@ namespace PS3_RTM_tool
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (checkBox1.Checked)
-                PS3.Extension.WriteByte(0xD003CADC + 0x000002E4, 0x14); //max hp = 20
+            {
+                UInt32 ptr = PS3.Extension.ReadUInt32(0xD003CADC);
+                ptr += 740;
+                PS3.Extension.WriteInt32(ptr, 20); //max hp = 20
+            }
         }
     }
 }

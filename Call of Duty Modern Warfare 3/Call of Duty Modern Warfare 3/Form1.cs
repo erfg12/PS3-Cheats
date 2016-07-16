@@ -30,7 +30,8 @@ namespace PS3_RTM_tool
             try
             {
                 if (PS3.ConnectTarget())
-                    MessageBox.Show("Successfully Connected to Target!", "Connected", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show("Successfully Connected to Target!", "Connected", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    statusLabel.Text = "Status: Connected/Not Attached";
                 else
                     MessageBox.Show("Failed to Connect", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -44,12 +45,15 @@ namespace PS3_RTM_tool
         {
             try
             {
-                PS3.AttachProcess();
-                MessageBox.Show("Successfully Attached to Proccess!", "Attached", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (PS3.AttachProcess())
+                    //MessageBox.Show("Successfully Attached to Proccess!", "Attached", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    statusLabel.Text = "Status: Connected/Attached";
+                else
+                    MessageBox.Show("Failed to Attach", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch
             {
-                MessageBox.Show("Failed to Attached", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Failed to Attach", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -71,10 +75,10 @@ namespace PS3_RTM_tool
                 PS3.Extension.WriteByte(0x0122743B, 0x64);
                 PS3.Extension.WriteByte(0x010EEC2B, 0x64);
                 //armor
-                if (PS3.Extension.ReadInt32(0x01BEDEE0) > 1)
+                /*if (PS3.Extension.ReadInt32(0x01BEDEE0) > 1)
                     PS3.Extension.WriteByte(0x01BEDEE0, 0xFF);
                 if (PS3.Extension.ReadInt32(0x01CB42C0) > 1)
-                    PS3.Extension.WriteByte(0x01CB42C0, 0xFF);
+                    PS3.Extension.WriteByte(0x01CB42C0, 0xFF);*/
             }
             if (checkBox2.Checked)
             {
