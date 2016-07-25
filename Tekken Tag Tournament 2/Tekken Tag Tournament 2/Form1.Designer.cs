@@ -37,13 +37,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.statusLabel = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // connectBtn
             // 
-            this.connectBtn.Location = new System.Drawing.Point(12, 13);
+            this.connectBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.connectBtn.Location = new System.Drawing.Point(245, 116);
             this.connectBtn.Name = "connectBtn";
-            this.connectBtn.Size = new System.Drawing.Size(75, 23);
+            this.connectBtn.Size = new System.Drawing.Size(107, 40);
             this.connectBtn.TabIndex = 0;
             this.connectBtn.Text = "connect";
             this.connectBtn.UseVisualStyleBackColor = true;
@@ -51,9 +53,10 @@
             // 
             // attachBtn
             // 
-            this.attachBtn.Location = new System.Drawing.Point(95, 13);
+            this.attachBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.attachBtn.Location = new System.Drawing.Point(358, 116);
             this.attachBtn.Name = "attachBtn";
-            this.attachBtn.Size = new System.Drawing.Size(75, 23);
+            this.attachBtn.Size = new System.Drawing.Size(103, 40);
             this.attachBtn.TabIndex = 1;
             this.attachBtn.Text = "attach";
             this.attachBtn.UseVisualStyleBackColor = true;
@@ -63,9 +66,11 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(13, 42);
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.radioButton1.Location = new System.Drawing.Point(245, 180);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(56, 17);
+            this.radioButton1.Size = new System.Drawing.Size(92, 29);
             this.radioButton1.TabIndex = 2;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "CCAPI";
@@ -75,9 +80,11 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(95, 42);
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.radioButton2.Location = new System.Drawing.Point(358, 180);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(58, 17);
+            this.radioButton2.Size = new System.Drawing.Size(92, 29);
             this.radioButton2.TabIndex = 3;
             this.radioButton2.Text = "TMAPI";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -86,21 +93,24 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(13, 100);
+            this.checkBox1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.checkBox1.Location = new System.Drawing.Point(289, 317);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(75, 17);
+            this.checkBox1.Size = new System.Drawing.Size(130, 29);
             this.checkBox1.TabIndex = 4;
             this.checkBox1.Text = "Infinite HP";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(148, 101);
+            this.label1.Location = new System.Drawing.Point(648, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 13);
+            this.label1.Size = new System.Drawing.Size(85, 13);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Tested on v1.3";
+            this.label1.Text = "Tested on v1.03";
             // 
             // timer1
             // 
@@ -111,17 +121,31 @@
             // statusLabel
             // 
             this.statusLabel.AutoSize = true;
-            this.statusLabel.Location = new System.Drawing.Point(12, 73);
+            this.statusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusLabel.ForeColor = System.Drawing.Color.SteelBlue;
+            this.statusLabel.Location = new System.Drawing.Point(486, 131);
             this.statusLabel.Name = "statusLabel";
-            this.statusLabel.Size = new System.Drawing.Size(63, 13);
+            this.statusLabel.Size = new System.Drawing.Size(113, 25);
             this.statusLabel.TabIndex = 6;
             this.statusLabel.Text = "Status: N/A";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Matura MT Script Capitals", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(151, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(467, 51);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Tekken Tag Tournament 2";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(239, 129);
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.ClientSize = new System.Drawing.Size(763, 645);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.statusLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBox1);
@@ -151,6 +175,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label statusLabel;
+        private System.Windows.Forms.Label label2;
     }
 }
 

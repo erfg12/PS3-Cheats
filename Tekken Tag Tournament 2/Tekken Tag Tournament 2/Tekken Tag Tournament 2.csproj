@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="PS3Lib, Version=4.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Desktop\PS3Lib.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\PS3Lib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
