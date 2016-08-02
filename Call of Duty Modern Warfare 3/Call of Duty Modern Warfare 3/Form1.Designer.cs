@@ -46,7 +46,7 @@
             // 
             // connectBtn
             // 
-            this.connectBtn.Location = new System.Drawing.Point(24, 185);
+            this.connectBtn.Location = new System.Drawing.Point(111, 231);
             this.connectBtn.Margin = new System.Windows.Forms.Padding(6);
             this.connectBtn.Name = "connectBtn";
             this.connectBtn.Size = new System.Drawing.Size(150, 44);
@@ -57,7 +57,7 @@
             // 
             // attachBtn
             // 
-            this.attachBtn.Location = new System.Drawing.Point(190, 185);
+            this.attachBtn.Location = new System.Drawing.Point(277, 231);
             this.attachBtn.Margin = new System.Windows.Forms.Padding(6);
             this.attachBtn.Name = "attachBtn";
             this.attachBtn.Size = new System.Drawing.Size(150, 44);
@@ -70,7 +70,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(352, 191);
+            this.radioButton1.Location = new System.Drawing.Point(439, 237);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(6);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(92, 29);
@@ -83,7 +83,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(476, 191);
+            this.radioButton2.Location = new System.Drawing.Point(563, 237);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(6);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(92, 29);
@@ -95,7 +95,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(24, 341);
+            this.checkBox1.Location = new System.Drawing.Point(111, 387);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(119, 29);
@@ -106,7 +106,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(443, 23);
+            this.label1.Location = new System.Drawing.Point(595, 27);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(153, 25);
@@ -122,7 +122,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(24, 385);
+            this.checkBox2.Location = new System.Drawing.Point(111, 431);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(149, 29);
@@ -133,7 +133,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(276, 341);
+            this.checkBox3.Location = new System.Drawing.Point(363, 387);
             this.checkBox3.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(237, 29);
@@ -144,7 +144,7 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(276, 385);
+            this.checkBox4.Location = new System.Drawing.Point(363, 431);
             this.checkBox4.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(249, 29);
@@ -155,7 +155,7 @@
             // statusLabel
             // 
             this.statusLabel.AutoSize = true;
-            this.statusLabel.Location = new System.Drawing.Point(26, 272);
+            this.statusLabel.Location = new System.Drawing.Point(113, 318);
             this.statusLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.statusLabel.Name = "statusLabel";
             this.statusLabel.Size = new System.Drawing.Size(113, 25);
@@ -168,7 +168,7 @@
             this.label2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(21, 35);
+            this.label2.Location = new System.Drawing.Point(108, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(319, 72);
             this.label2.TabIndex = 10;
@@ -180,7 +180,7 @@
             this.label3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(155, 107);
+            this.label3.Location = new System.Drawing.Point(242, 153);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(346, 54);
             this.label3.TabIndex = 11;
@@ -191,7 +191,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(611, 523);
+            this.ClientSize = new System.Drawing.Size(763, 645);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.statusLabel);
