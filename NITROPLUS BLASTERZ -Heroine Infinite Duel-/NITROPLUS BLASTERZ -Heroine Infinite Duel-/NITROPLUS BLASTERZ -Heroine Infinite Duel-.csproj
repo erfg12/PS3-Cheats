@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PS3_RTM_tool</RootNamespace>
-    <AssemblyName>NITROPLUS BLASTERZ -Heroine Infinite Duel- RTM</AssemblyName>
+    <AssemblyName>NITROPLUS BLASTERZ -Heroine Infinite Duel- Trainer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

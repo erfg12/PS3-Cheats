@@ -47,7 +47,7 @@
             // connectBtn
             // 
             this.connectBtn.Location = new System.Drawing.Point(24, 185);
-            this.connectBtn.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.connectBtn.Margin = new System.Windows.Forms.Padding(6);
             this.connectBtn.Name = "connectBtn";
             this.connectBtn.Size = new System.Drawing.Size(150, 44);
             this.connectBtn.TabIndex = 0;
@@ -58,7 +58,7 @@
             // attachBtn
             // 
             this.attachBtn.Location = new System.Drawing.Point(190, 185);
-            this.attachBtn.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.attachBtn.Margin = new System.Windows.Forms.Padding(6);
             this.attachBtn.Name = "attachBtn";
             this.attachBtn.Size = new System.Drawing.Size(150, 44);
             this.attachBtn.TabIndex = 1;
@@ -71,7 +71,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(352, 191);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(6);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(92, 29);
             this.radioButton1.TabIndex = 2;
@@ -84,7 +84,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(476, 191);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(6);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(92, 29);
             this.radioButton2.TabIndex = 3;
@@ -96,7 +96,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(24, 341);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(119, 29);
             this.checkBox1.TabIndex = 4;
@@ -106,7 +106,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(430, 477);
+            this.label1.Location = new System.Drawing.Point(443, 23);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(153, 25);
@@ -123,7 +123,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(24, 385);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(149, 29);
             this.checkBox2.TabIndex = 6;
@@ -134,7 +134,7 @@
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(276, 341);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(237, 29);
             this.checkBox3.TabIndex = 7;
@@ -145,7 +145,7 @@
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.Location = new System.Drawing.Point(276, 385);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(6);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(249, 29);
             this.checkBox4.TabIndex = 8;
@@ -166,11 +166,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.label2.Font = new System.Drawing.Font("Playbill", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(83, 23);
+            this.label2.Location = new System.Drawing.Point(21, 35);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(189, 55);
+            this.label2.Size = new System.Drawing.Size(319, 72);
             this.label2.TabIndex = 10;
             this.label2.Text = "Call of Duty:";
             // 
@@ -178,11 +178,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.label3.Font = new System.Drawing.Font("Playbill", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Nirmala UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(180, 93);
+            this.label3.Location = new System.Drawing.Point(155, 107);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(265, 55);
+            this.label3.Size = new System.Drawing.Size(346, 54);
             this.label3.TabIndex = 11;
             this.label3.Text = "Modern Warfare 3";
             // 
@@ -207,7 +207,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.SteelBlue;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";

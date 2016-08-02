@@ -43,7 +43,7 @@
             // connectBtn
             // 
             this.connectBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.connectBtn.Location = new System.Drawing.Point(245, 116);
+            this.connectBtn.Location = new System.Drawing.Point(240, 202);
             this.connectBtn.Name = "connectBtn";
             this.connectBtn.Size = new System.Drawing.Size(107, 40);
             this.connectBtn.TabIndex = 0;
@@ -54,7 +54,7 @@
             // attachBtn
             // 
             this.attachBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attachBtn.Location = new System.Drawing.Point(358, 116);
+            this.attachBtn.Location = new System.Drawing.Point(353, 202);
             this.attachBtn.Name = "attachBtn";
             this.attachBtn.Size = new System.Drawing.Size(103, 40);
             this.attachBtn.TabIndex = 1;
@@ -68,7 +68,7 @@
             this.radioButton1.Checked = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.radioButton1.Location = new System.Drawing.Point(245, 180);
+            this.radioButton1.Location = new System.Drawing.Point(240, 266);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(92, 29);
             this.radioButton1.TabIndex = 2;
@@ -82,7 +82,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.radioButton2.Location = new System.Drawing.Point(358, 180);
+            this.radioButton2.Location = new System.Drawing.Point(353, 266);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(92, 29);
             this.radioButton2.TabIndex = 3;
@@ -96,7 +96,7 @@
             this.checkBox1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.checkBox1.Location = new System.Drawing.Point(289, 317);
+            this.checkBox1.Location = new System.Drawing.Point(284, 403);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(130, 29);
             this.checkBox1.TabIndex = 4;
@@ -106,9 +106,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(648, 30);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.Location = new System.Drawing.Point(598, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 13);
+            this.label1.Size = new System.Drawing.Size(153, 25);
             this.label1.TabIndex = 5;
             this.label1.Text = "Tested on v1.03";
             // 
@@ -123,7 +125,7 @@
             this.statusLabel.AutoSize = true;
             this.statusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statusLabel.ForeColor = System.Drawing.Color.SteelBlue;
-            this.statusLabel.Location = new System.Drawing.Point(486, 131);
+            this.statusLabel.Location = new System.Drawing.Point(481, 217);
             this.statusLabel.Name = "statusLabel";
             this.statusLabel.Size = new System.Drawing.Size(113, 25);
             this.statusLabel.TabIndex = 6;
@@ -133,7 +135,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Matura MT Script Capitals", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(151, 9);
+            this.label2.Location = new System.Drawing.Point(146, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(467, 51);
             this.label2.TabIndex = 7;
